@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df9d51b2-e5cc-41c4-b63e-f4ce79238dc0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/HealthBar.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Health-Bar-master/Health-Bar-master/Health Bar/Assets/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Third_Person_Movement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Player.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Player.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nWWguJvEp5SsVumLcBr1x0OZI9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df9d51b2-e5cc-41c4-b63e-f4ce79238dc0" name="Default Changelist" comment="" />
+      <created>1611506447978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611506447978</updated>
+      <workItem from="1611506451343" duration="4000" />
+      <workItem from="1611506518058" duration="433000" />
+      <workItem from="1611507050173" duration="112000" />
+      <workItem from="1611507181807" duration="177000" />
+      <workItem from="1611564569691" duration="77000" />
+      <workItem from="1611566177092" duration="2381000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="705" y="-1148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1611569975719">
+      <screen x="0" y="-1440" width="2048" height="1112" />
+    </state>
+    <state x="705" y="-1148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.920/0.-1440.2048.1112@0.-1440.2048.1112" timestamp="1611569975719" />
+  </component>
+</project>
