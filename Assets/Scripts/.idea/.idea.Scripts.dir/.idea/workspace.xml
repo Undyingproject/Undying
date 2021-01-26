@@ -8,8 +8,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/HealthBar.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/Health-Bar-master/Health-Bar-master/Health Bar/Assets/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Health-Bar-master/Health-Bar-master/Health Bar/Assets/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Third_Person_Movement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Player.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -44,6 +44,8 @@
       <workItem from="1611507181807" duration="177000" />
       <workItem from="1611564569691" duration="77000" />
       <workItem from="1611566177092" duration="2381000" />
+      <workItem from="1611666760412" duration="17000" />
+      <workItem from="1611666798383" duration="935000" />
     </task>
     <servers />
   </component>

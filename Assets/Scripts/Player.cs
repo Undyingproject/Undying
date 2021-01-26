@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-	public int maxHealth = 100;
+	public int maxHealth = 20;
 	public int currentHealth;
 
 	public HealthBar healthBar;
@@ -32,14 +32,19 @@ public class Player : MonoBehaviour
 
 	void TakeDamage(int damage)
 	{
-		currentHealth -= damage;
-
+		if (currentHealth > 0)
+		{
+			currentHealth -= damage;
+		}
 		healthBar.SetHealth(currentHealth);
 	}
 
 	void TakeHealth(int addpv)
 	{
-		currentHealth += addpv;
+		if (currentHealth < 20 && currentHealth > 0)
+		{
+			currentHealth += addpv;	
+		}
 
 		healthBar.SetHealth(currentHealth);
 	}
