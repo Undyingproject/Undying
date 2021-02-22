@@ -28,6 +28,8 @@ public class Player : MonoBehaviour
 		{
 			TakeHealth(1);
 		}
+		Cursor.visible = false;
+		Cursor.lockState = CursorLockMode.Locked;
 	}
 
 	void TakeDamage(int damage)
