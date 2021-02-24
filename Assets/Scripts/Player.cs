@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class Player : MonoBehaviour
+public class Player : NetworkBehaviour
 {
 	public int maxHealth = 20;
+
+	[SyncVar]
 	public int currentHealth;
 
 	public HealthBar healthBar;
@@ -32,15 +35,23 @@ public class Player : MonoBehaviour
 
 	public void TakeDamage(int damage)
 	{
+
 		if (currentHealth > 0)
 		{
 			currentHealth -= damage;
 		}
 		healthBar.SetHealth(currentHealth);
+
+		if (currentHealth <=0)
+        {
+			currentHealth = 0;
+			Debug.Log("Killed");
+        }
 	}
 
 	public void TakeHealth(int addpv)
 	{
+
 		if (currentHealth < 20 && currentHealth > 0)
 		{
 			currentHealth += addpv;	

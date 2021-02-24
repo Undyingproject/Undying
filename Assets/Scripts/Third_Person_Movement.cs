@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class Third_Person_Movement : MonoBehaviour
+public class Third_Person_Movement : NetworkBehaviour
 {
 
     public CharacterController Controller;
@@ -15,6 +16,11 @@ public class Third_Person_Movement : MonoBehaviour
     // Update is called once per fram
     void Update()
     {
+        if (!isLocalPlayer)
+        {
+            return;
+        }
+
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
@@ -29,6 +35,5 @@ public class Third_Person_Movement : MonoBehaviour
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             Controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
-
     }
 }
