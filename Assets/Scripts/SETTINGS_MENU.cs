@@ -49,6 +49,7 @@ public class SETTINGS_MENU : MonoBehaviour
 
     public void SetFullScreen (bool isFullscreen)
     {
+        Debug.Log("Quit Game!");
         Screen.fullScreen = isFullscreen;
     }
 }
