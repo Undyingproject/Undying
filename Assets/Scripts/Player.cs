@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
 		}
 	}
 
-	void TakeDamage(int damage)
+	public void TakeDamage(int damage)
 	{
 		if (currentHealth > 0)
 		{
@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
 		healthBar.SetHealth(currentHealth);
 	}
 
-	void TakeHealth(int addpv)
+	public void TakeHealth(int addpv)
 	{
 		if (currentHealth < 20 && currentHealth > 0)
 		{
