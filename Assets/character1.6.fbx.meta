@@ -27,7 +27,27 @@ ModelImporter:
   - first:
       74: 1160772205865639200
     second: skeleton|walking
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "aur\xE9ole"
+    second: {fileID: 2100000, guid: 9d1f27f834041d14eb293a83da0c7c03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blade
+    second: {fileID: 2100000, guid: 5c465f4bce9465b4b9d0c068c6834078, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: peau
+    second: {fileID: 2100000, guid: 097dad03b83ca9e44ac9f1780ceb6110, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toge
+    second: {fileID: 2100000, guid: de1e9b5d851196d469e61568dcaea258, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
