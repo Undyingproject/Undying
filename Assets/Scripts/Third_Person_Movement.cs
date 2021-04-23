@@ -1,9 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Networking;
 
-public class Third_Person_Movement : NetworkBehaviour
+public class Third_Person_Movement : MonoBehaviour
 {
 
     public CharacterController Controller;

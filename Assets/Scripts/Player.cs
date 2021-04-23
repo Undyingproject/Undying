@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Networking;
 
-public class Player : NetworkBehaviour
+
+public class Player : MonoBehaviour
 {
 	public int maxHealth = 20;
 
