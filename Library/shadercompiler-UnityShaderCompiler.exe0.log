@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 Base path: 'D:/Unity/2019.4.16f1/Editor/Data', plugins path 'D:/Unity/2019.4.16f1/Editor/Data/PlaybackEngines'
+=======
+Base path: 'D:/EPITA/2019.4.16f1/Editor/Data', plugins path 'D:/EPITA/2019.4.16f1/Editor/Data/PlaybackEngines'
+>>>>>>> c01457c57e7b63d2120254106c8dace018bab828
 Cmd: initializeCompiler

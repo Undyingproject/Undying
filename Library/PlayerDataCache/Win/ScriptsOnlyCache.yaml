@@ -1208,4 +1208,8 @@ ScriptsOnlyBuild:
   scenePathNames:
   - "Assets/Scenes/\xE9cran d'accueil.unity"
   - Assets/Scenes/game.unity
+<<<<<<< HEAD
   playerPath: D:/BUILD SOUTENANCE MULTI/Undying.exe
+=======
+  playerPath: C:/Users/cyria/OneDrive/Bureau/Undying.exe
+>>>>>>> c01457c57e7b63d2120254106c8dace018bab828
