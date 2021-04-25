@@ -621,9 +621,6 @@
  <Reference Include="Cinemachine">
  <HintPath>D:/Git Game/.git/Undying/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
- <Reference Include="com.unity.multiplayer-hlapi.Editor">
- <HintPath>D:/Git Game/.git/Undying/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.ProGrids">
  <HintPath>D:/Git Game/.git/Undying/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
  </Reference>
@@ -645,9 +642,6 @@
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>D:/Git Game/.git/Undying/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
- <Reference Include="com.unity.multiplayer-weaver.Editor">
- <HintPath>D:/Git Game/.git/Undying/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>D:/Git Game/.git/Undying/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
@@ -659,9 +653,6 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/Git Game/.git/Undying/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.multiplayer-hlapi.Runtime">
- <HintPath>D:/Git Game/.git/Undying/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
