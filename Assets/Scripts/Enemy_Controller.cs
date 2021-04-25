@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemyAiTutorial : MonoBehaviour
+public class Enemy_Controller : MonoBehaviour
 {
     public NavMeshAgent agent;
 
@@ -11,6 +11,10 @@ public class EnemyAiTutorial : MonoBehaviour
     public LayerMask whatIsGround, whatIsPlayer;
 
     public float health;
+
+    public float totalFOV = 70.0f;
+    public float rayRange = 10.0f;
+    public float halfFOV = 70.0f / 2.0f;
 
     //Patroling
     public Vector3 walkPoint;
@@ -27,7 +31,7 @@ public class EnemyAiTutorial : MonoBehaviour
     public bool playerInSightRange, playerInAttackRange;
     public Transform[] navPoint;
     public int destPoint;
-    private Player Player;
+    private Third_Person_Movement Player;
 
     private void Awake()
     {
@@ -83,7 +87,7 @@ public class EnemyAiTutorial : MonoBehaviour
         if (!alreadyAttacked)
         {
             ///Attack code here
-            Player = GameObject.FindObjectOfType(typeof(Player)) as Player;
+            Player = GameObject.FindObjectOfType(typeof(Third_Person_Movement)) as Third_Person_Movement;
             Player.TakeDamage(1);
             ///End of attack code
 
@@ -94,13 +98,6 @@ public class EnemyAiTutorial : MonoBehaviour
     private void ResetAttack()
     {
         alreadyAttacked = false;
-    }
-
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-
-        if (health <= 0) Invoke(nameof(DestroyEnemy), 0.5f);
     }
     private void DestroyEnemy()
     {
