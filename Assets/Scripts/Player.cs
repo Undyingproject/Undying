@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
 	public int maxHealth = 20;
 
-	[SyncVar]
+
 	public int currentHealth;
 
 	public HealthBar healthBar;

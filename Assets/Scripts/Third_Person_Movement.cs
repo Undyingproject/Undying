@@ -15,10 +15,7 @@ public class Third_Person_Movement : MonoBehaviour
     // Update is called once per fram
     void Update()
     {
-        if (!isLocalPlayer)
-        {
-            return;
-        }
+       
 
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
