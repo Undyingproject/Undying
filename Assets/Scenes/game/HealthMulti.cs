@@ -8,7 +8,8 @@ public class HealthMulti : NetworkBehaviour
 {
     public const int maxHealth = 20;
     public bool destroyOnDeath;
-
+    public Camera MainCamera;
+    public Camera CameraPlayer;
 
     private NetworkStartPosition[] spawnPoints;
 
@@ -27,6 +28,7 @@ public class HealthMulti : NetworkBehaviour
         else
         {
             transform.Find("CameraPlayer").gameObject.SetActive(false);
+            GameObject.Find("MainCamera").active = false;
         }
     }
 
