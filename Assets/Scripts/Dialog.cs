@@ -8,6 +8,7 @@ public class Dialog : MonoBehaviour
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
     private int index;
+    private int indx;
     public float typingSpeed;
 
     public GameObject continueButton;
@@ -41,7 +42,7 @@ public class Dialog : MonoBehaviour
 	public void AddI()
     {
 		plus++;
-		if(plus>4)
+		if(plus>5)
         {
 			Destroy(Image);
             camera.SetActive(true);
