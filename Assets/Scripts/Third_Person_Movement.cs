@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Third_Person_Movement : MonoBehaviour
 {
+    public Transform spawnPoint;
     public int maxHealth = 20;
     public int currentHealth;
     public HealthBar healthBar;
@@ -16,11 +18,17 @@ public class Third_Person_Movement : MonoBehaviour
     float turnSmoothVelocity;
 
     public bool hasObject;
-    public bool isAlive;
+    public bool isDead;
+    public GameObject HUD;
+    public GameObject Player;
+    public GameObject GAME_OVER;
+
     void Start()
     {
+        isDead=false;
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+        this.transform.position = spawnPoint.position;
     }
 
     void Update()
@@ -39,10 +47,13 @@ public class Third_Person_Movement : MonoBehaviour
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             Controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
-        if (maxHealth <= 0)
+        if (currentHealth <= 0)
         {
-            isAlive = false;
-            Destroy(GetComponent<Third_Person_Movement>());
+            isDead = false;
+            currentHealth = maxHealth;
+            healthBar.SetMaxHealth(maxHealth);
+            this.transform.position = spawnPoint.position;
+            isDead=true;
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
@@ -55,7 +66,12 @@ public class Third_Person_Movement : MonoBehaviour
             TakeHealth(1);
         }
 
-
+        if(isDead)
+        {
+            GAME_OVER.SetActive(true);
+            Player.SetActive(false);
+            HUD.SetActive(false);
+        }
 
     }
     public void TakeDamage(int damage)

@@ -55,10 +55,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GameoverScript.cs" />
      <Compile Include="Assets\Scenes\game\Billboard.cs" />
      <Compile Include="Assets\Scenes\game\EnemySpawner.cs" />
      <Compile Include="Assets\Scenes\game\HealthMulti.cs" />
      <Compile Include="Assets\Scenes\game\Playercontrol.cs" />
+     <Compile Include="Assets\Scripts\Dialog.cs" />
      <Compile Include="Assets\Scripts\EnemyController.cs" />
      <Compile Include="Assets\Scripts\Enemy_Controller.cs" />
      <Compile Include="Assets\Scripts\Falling.cs" />
