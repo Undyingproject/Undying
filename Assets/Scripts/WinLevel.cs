@@ -10,7 +10,7 @@ public class WinLevel : MonoBehaviour
     {
         if (other.gameObject.tag == "Player" && player.hasObject)
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }
