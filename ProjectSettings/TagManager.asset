@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ennemy
   - Entity
+  - Button_1
+  - Button_2
   layers:
   - Default
   - TransparentFX
