@@ -103,7 +103,12 @@ public class Enemy_Controller : MonoBehaviour
     {
         Destroy(gameObject);
     }
-
+    public void TakeDamage(float amount)
+    {
+        health -= amount;
+        if (health <= 0f)
+            DestroyEnemy();
+    }
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
