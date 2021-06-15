@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\Gun.cs" />
     <Compile Include="Assets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Scripts\MENU.cs" />
+    <Compile Include="Assets\Scripts\Minotaur_Controller.cs" />
     <Compile Include="Assets\Scripts\PAUSE_MENU.cs" />
     <Compile Include="Assets\Scripts\PickUpObject.cs" />
     <Compile Include="Assets\Scripts\PlatformMove.cs" />
