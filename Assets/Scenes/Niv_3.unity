@@ -2130,7 +2130,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 931114512}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 83.7, y: 55.629993, z: 91.5}
+  m_LocalPosition: {x: 70.4, y: 55.629993, z: -247.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2224,7 +2224,7 @@ GameObject:
   - component: {fileID: 990742298}
   - component: {fileID: 990742297}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Minotaur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2256,7 +2256,7 @@ MonoBehaviour:
   halfFOV: 35
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 0
-  timeBetweenAttacks: 2
+  timeBetweenAttacks: 1.5
   projectile: {fileID: 0}
   sightRange: 55
   attackRange: 40
@@ -4793,7 +4793,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820486382}
-  m_LocalRotation: {x: 0.42281806, y: 0.0071174097, z: -0.0033209382, w: 0.90618056}
+  m_LocalRotation: {x: 0.42281812, y: 0.007117388, z: -0.0033209282, w: 0.90618056}
   m_LocalPosition: {x: 69.734276, y: 70.08206, z: -255.44936}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -5157,7 +5157,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062044654}
-  m_LocalRotation: {x: 0.30468047, y: -0.63418233, z: 0.29993165, w: 0.64422333}
+  m_LocalRotation: {x: 0.3046805, y: -0.6341823, z: 0.29993168, w: 0.6442233}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
