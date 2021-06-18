@@ -5,7 +5,7 @@ public class Gun : MonoBehaviour
     public float damage = 2f;
     public float range = 100f;
     public Transform player;
-
+    public ParticleSystem particle;
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
@@ -14,6 +14,7 @@ public class Gun : MonoBehaviour
 
     void Shoot()
     {
+        particle.Play();
         RaycastHit hit;
         if (Physics.Raycast(player.position, player.forward, out hit, range))
         {

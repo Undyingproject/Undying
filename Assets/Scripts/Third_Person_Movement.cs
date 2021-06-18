@@ -22,9 +22,16 @@ public class Third_Person_Movement : MonoBehaviour
     public GameObject HUD;
     public GameObject Player;
     public GameObject GAME_OVER;
+    public bool hasGun;
 
     void Start()
     {
+        foreach (MeshRenderer meshR in GetComponentsInChildren<MeshRenderer>())
+            if (meshR.name == "gun")
+                if (hasGun)
+                   meshR.enabled = true;
+                else
+                   meshR.enabled = false;
         isDead=false;
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
