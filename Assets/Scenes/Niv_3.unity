@@ -600,6 +600,7 @@ MonoBehaviour:
   HUD: {fileID: 630307543}
   Player: {fileID: 52678793}
   GAME_OVER: {fileID: 1232316240}
+  hasGun: 0
 --- !u!143 &52678795
 CharacterController:
   m_ObjectHideFlags: 0
@@ -630,7 +631,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: ad5fe55aa74ef4748b383819b672a132,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: ab6d37bb820e4984d8ede558d8ec21c8, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -4924,7 +4925,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820486382}
-  m_LocalRotation: {x: 0.42281812, y: 0.007117388, z: -0.0033209282, w: 0.90618056}
+  m_LocalRotation: {x: 0.42281806, y: 0.0071174097, z: -0.0033209382, w: 0.90618056}
   m_LocalPosition: {x: 69.834274, y: 70.08206, z: -248.24936}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -5288,7 +5289,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062044654}
-  m_LocalRotation: {x: 0.3046805, y: -0.6341823, z: 0.29993168, w: 0.6442233}
+  m_LocalRotation: {x: 0.30468047, y: -0.63418233, z: 0.29993165, w: 0.64422333}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
