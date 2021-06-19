@@ -87,6 +87,7 @@
      <Compile Include="Assets\Scripts\bouton_1.cs" />
      <Compile Include="Assets\Scripts\bouton_2.cs" />
      <Compile Include="Assets\Scripts\breakbyedynamite.cs" />
+     <Compile Include="Assets\Scripts\skip.cs" />
      <Compile Include="Assets\Scripts\winbytouch.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
