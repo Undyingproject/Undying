@@ -25,6 +25,7 @@ public class Enemy_Controller : MonoBehaviour
     public float timeBetweenAttacks;
     bool alreadyAttacked;
     public GameObject projectile;
+    public int damage = 1;
 
     //States
     public float sightRange, attackRange;
@@ -88,7 +89,7 @@ public class Enemy_Controller : MonoBehaviour
         {
             ///Attack code here
             Player = GameObject.FindObjectOfType(typeof(Third_Person_Movement)) as Third_Person_Movement;
-            Player.TakeDamage(1);
+            Player.TakeDamage(damage);
             ///End of attack code
 
             alreadyAttacked = true;
