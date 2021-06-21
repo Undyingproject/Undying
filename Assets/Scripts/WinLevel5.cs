@@ -19,7 +19,6 @@ public class WinLevel5 : MonoBehaviour
             enemies[7] == null)
         {
             winMenu.SetActive(true);
-            Time.timeScale = 0f;
         }
     }
 }

@@ -7,10 +7,9 @@ public class SpawnAllies : MonoBehaviour
     public GameObject[] allies;
     private float health;
     public float healthToSpawn;
+    private bool didSpawn = true;
     void Start()
     {
-        Enemy_Controller me = gameObject.GetComponent<Enemy_Controller>();
-        health = me.health;
         foreach(var ally in allies)
             ally.SetActive(false);
     }
@@ -19,8 +18,11 @@ public class SpawnAllies : MonoBehaviour
     {
         Enemy_Controller me = gameObject.GetComponent<Enemy_Controller>();
         health = me.health;
-        if (health <= healthToSpawn)
+        if (health <= healthToSpawn && didSpawn)
+        {
             foreach (var ally in allies)
                 ally.SetActive(true);
+            didSpawn = false;
+        }
     }
 }

@@ -10,9 +10,7 @@ public class Falling : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            player.Controller.enabled = false;
-            player.transform.position = respawnPoint.transform.position;
-            player.Controller.enabled = true;
+            player.currentHealth = 0;
         }
     }
 }

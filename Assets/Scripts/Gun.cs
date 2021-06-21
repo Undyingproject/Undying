@@ -30,8 +30,14 @@ public class Gun : MonoBehaviour
         {
             Debug.Log(hit.transform.name);
             Enemy_Controller target = hit.transform.GetComponent<Enemy_Controller>();
+            Minotaur_Controller targetMinotaur = hit.transform.GetComponent<Minotaur_Controller>();
+            Boss_Controller targetBoss = hit.transform.GetComponent<Boss_Controller>();
             if (target != null)
                 target.TakeDamage(damage);
+            if (targetMinotaur != null)
+                targetMinotaur.TakeDamage(damage);
+            if (targetBoss != null)
+                targetBoss.TakeDamage(damage);
         }
     }
 }
