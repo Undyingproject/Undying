@@ -5193,6 +5193,7 @@ GameObject:
   - component: {fileID: 1176547739}
   - component: {fileID: 1176547738}
   - component: {fileID: 1176547737}
+  - component: {fileID: 1176547740}
   m_Layer: 5
   m_Name: HUD
   m_TagString: Untagged
@@ -5281,6 +5282,20 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1176547740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176547735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f54f855ae2e244e4fa908b7a292dfe1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialog: {fileID: 2024145937}
+  player: {fileID: 180246496}
 --- !u!1 &1216692024
 GameObject:
   m_ObjectHideFlags: 3
@@ -8294,7 +8309,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989420990}
   m_LocalRotation: {x: 0.38009453, y: -0, z: 0.000000044703484, w: 0.92494774}
-  m_LocalPosition: {x: 0.0000019073489, y: 0, z: -0.000005722046}
+  m_LocalPosition: {x: 0.0000038146977, y: 0, z: -0.00001335144}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 798300157}
@@ -8451,7 +8466,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062939764}
-  m_LocalRotation: {x: 0.4038884, y: -0.00000008940696, z: 0.0000000745058, w: 0.9148083}
+  m_LocalRotation: {x: 0.40388837, y: -0.00000008940696, z: 0.00000008940696, w: 0.9148083}
   m_LocalPosition: {x: 0.0000009536745, y: 0, z: -0.000002861023}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
