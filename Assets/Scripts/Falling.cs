@@ -5,7 +5,6 @@ using UnityEngine;
 public class Falling : MonoBehaviour
 {
     public Third_Person_Movement player;
-    public Transform respawnPoint;
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")

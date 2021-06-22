@@ -13,6 +13,7 @@ public class breakbyedynamite : MonoBehaviour
         if (other.gameObject.tag == "Player" && player.hasObject)
         {
             mur.SetActive(false);
+            player.hasObject = false;
         }
     }
 }

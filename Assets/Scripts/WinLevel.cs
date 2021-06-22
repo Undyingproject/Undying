@@ -14,7 +14,8 @@ public class WinLevel : MonoBehaviour
     {
         if (other.gameObject.tag == "Player" && player.hasObject)
         {
-            video.Play();
+            if(video != null)
+                video.Play();
             level = true;
         }
         if(level == true)

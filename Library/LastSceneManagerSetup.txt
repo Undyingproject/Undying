@@ -1,5 +1,5 @@
 sceneSetups:
-- path: "Assets/Scenes/\xE9cran d'accueil.unity"
+- path: Assets/Scenes/Niv_3.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
