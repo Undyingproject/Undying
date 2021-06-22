@@ -3180,6 +3180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 770975577}
   - component: {fileID: 770975576}
+  - component: {fileID: 770975578}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -3298,6 +3299,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &770975578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770975575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507bdd9a05f44454ea18d1758a3832f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pause: {fileID: 1479699456}
+  dialog: {fileID: 1465448074}
+  win: {fileID: 1081815298}
+  lose: {fileID: 989472044}
 --- !u!1 &773270036
 GameObject:
   m_ObjectHideFlags: 0
@@ -6736,13 +6753,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 2124861382}
   sentences:
-  - Mais qu'as tu fais ?
-  - Je t'avais dis de ne pas faire exploser le mur.
+  - Mais qu'as-tu fait ?
+  - Je t'avais dit de ne pas faire exploser le mur.
   - Bon, reste ici, je vais venir te chercher.
-  - "Surtout ne va pas sur le nuage jaune, o\xF9 il t'emm\xE8nera directement au
-    purgatoire."
+  - "Surtout ne va pas sur le nuage jaune, ou il t'emm\xE8nera directement au purgatoire."
   - "Comme si j'allais l'\xE9couter."
-  - Futulu me voici !
+  - Futulu, me voici !
   typingSpeed: 0.02
   continueButton: {fileID: 177289749}
   Image: {fileID: 2024145937}
@@ -7856,7 +7872,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 180246497}
-  respawnPoint: {fileID: 1808014296}
 --- !u!64 &1863504779
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8309,7 +8324,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989420990}
   m_LocalRotation: {x: 0.38009453, y: -0, z: 0.000000044703484, w: 0.92494774}
-  m_LocalPosition: {x: 0.0000038146977, y: 0, z: -0.00001335144}
+  m_LocalPosition: {x: 0.0000019073489, y: 0, z: -0.000005722046}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 798300157}
@@ -8466,7 +8481,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062939764}
-  m_LocalRotation: {x: 0.40388837, y: -0.00000008940696, z: 0.00000008940696, w: 0.9148083}
+  m_LocalRotation: {x: 0.40388837, y: -0.000000059604638, z: -0, w: 0.9148082}
   m_LocalPosition: {x: 0.0000009536745, y: 0, z: -0.000002861023}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

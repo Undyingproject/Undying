@@ -63,16 +63,6 @@ public class Third_Person_Movement : MonoBehaviour
             isDead=true;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(1);
-        }
-
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            TakeHealth(1);
-        }
-
         if(isDead)
         {
             GAME_OVER.SetActive(true);
